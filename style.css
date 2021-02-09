@@ -1,0 +1,54 @@
+body{
+    background-color: #52b1f1;
+}
+nav{
+    background-color: #4770f5;
+
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+ul li:hover{
+    text-decoration: underline;
+}
+.homeimg img{
+    position: absolute;
+    right: 23%;
+    top: 35%;
+    border-radius: 35%;
+    z-index: 1;
+}
+.homeimg h4{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    color: white;
+}
+table { 
+    margin: 0 auto; 
+    font-size: large; 
+    border: 1px solid rgb(54, 1, 114); 
+    background-color: rgba(109, 71, 245, 0.2);
+    z-index:2;
+} 
+
+h1 { 
+    text-align: center; 
+    color: white; 
+    font-size: xx-large; 
+}
+
+th,td { 
+    font-weight: bold; 
+    border: 1px solid rgb(46, 1, 77); 
+    padding: 10px; 
+    text-align: center; 
+} 
+
+td { 
+    font-weight: lighter; 
+} 
+
+
