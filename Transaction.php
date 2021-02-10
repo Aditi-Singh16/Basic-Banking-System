@@ -1,8 +1,6 @@
 <?php 
   
-    include 'conn.php'
-
-    $conn = mysqli_connect($servername, $username, $password, $database);
+    include 'conn.php';
     
     // Checking for connections 
     if (!$conn){
@@ -76,13 +74,11 @@
                 <th>Date</th>
             </tr> 
             <!-- PHP CODE TO FETCH DATA FROM ROWS--> 
-            <?php   // LOOP TILL END OF DATA  
+            <?php  
                 while($rows=$result->fetch_assoc()) 
                 { 
              ?> 
             <tr> 
-                <!--FETCHING DATA FROM EACH  
-                    ROW OF EVERY COLUMN--> 
                 <td><?php echo $rows['Senders_Name'];?></td> 
                 <td><?php echo $rows['Amount_Transferred'];?></td> 
                 <td><?php echo $rows['Receivers_Name'];?></td>
