@@ -55,22 +55,26 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <nav class="navbar navbar-expand-lg ">
-        <ul class="navbar-nav">
-          <li>
-            <a href="#"><i class="fa fa-university fa-3x" aria-hidden="true"></i></a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#" style="color:white"><i class="fa fa-university fa-3x" aria-hidden="true"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+              <a class="nav-link" style="color:white" href="./index.html">Home</a>
           </li>
-          <li>
-            <h3 class="p-3" style="color:white">UBO</h3>
+          <li class="nav-item">
+              <a class="nav-link" style="color:white" href="./Customer.php">Customers</a>
           </li>
-          <li class="nav-item active p-2">
-            <a class="nav-link" href="./index.html">Home</a>
+          <li class="nav-item">
+              <a class="nav-link" style="color:white" href="./Transaction.php">View Transaction</a>
           </li>
-          <li class="nav-item p-2">
-            <a class="nav-link" href="./Customer.php">View Customers</a>
-          </li>
-       </ul>
-      </nav>
+        </ul>
+      </div>
+    </nav>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#4770f5" fill-opacity="1" d="M0,192L40,213.3C80,235,160,277,240,277.3C320,277,400,235,480,202.7C560,171,640,149,720,133.3C800,117,880,107,960,117.3C1040,128,1120,160,1200,192C1280,224,1360,256,1400,272L1440,288L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
     <section> 
         <h1>Customers</h1> 
